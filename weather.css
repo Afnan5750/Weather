@@ -14,7 +14,7 @@ body {
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: white;
-    margin: 100px auto 0;
+    margin: 75px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -93,4 +93,16 @@ body {
 .wind {
     font-size: 28px;
     margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
